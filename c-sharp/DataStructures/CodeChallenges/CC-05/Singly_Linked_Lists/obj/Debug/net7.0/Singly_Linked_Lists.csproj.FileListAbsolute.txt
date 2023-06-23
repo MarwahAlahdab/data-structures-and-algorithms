@@ -1,0 +1,15 @@
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-05/Singly_Linked_Lists/bin/Debug/net7.0/Singly_Linked_Lists
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-05/Singly_Linked_Lists/bin/Debug/net7.0/Singly_Linked_Lists.deps.json
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-05/Singly_Linked_Lists/bin/Debug/net7.0/Singly_Linked_Lists.runtimeconfig.json
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-05/Singly_Linked_Lists/bin/Debug/net7.0/Singly_Linked_Lists.dll
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-05/Singly_Linked_Lists/bin/Debug/net7.0/Singly_Linked_Lists.pdb
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-05/Singly_Linked_Lists/obj/Debug/net7.0/Singly_Linked_Lists.csproj.AssemblyReference.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-05/Singly_Linked_Lists/obj/Debug/net7.0/Singly_Linked_Lists.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-05/Singly_Linked_Lists/obj/Debug/net7.0/Singly_Linked_Lists.AssemblyInfoInputs.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-05/Singly_Linked_Lists/obj/Debug/net7.0/Singly_Linked_Lists.AssemblyInfo.cs
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-05/Singly_Linked_Lists/obj/Debug/net7.0/Singly_Linked_Lists.csproj.CoreCompileInputs.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-05/Singly_Linked_Lists/obj/Debug/net7.0/Singly_Linked_Lists.dll
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-05/Singly_Linked_Lists/obj/Debug/net7.0/refint/Singly_Linked_Lists.dll
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-05/Singly_Linked_Lists/obj/Debug/net7.0/Singly_Linked_Lists.pdb
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-05/Singly_Linked_Lists/obj/Debug/net7.0/Singly_Linked_Lists.genruntimeconfig.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-05/Singly_Linked_Lists/obj/Debug/net7.0/ref/Singly_Linked_Lists.dll
