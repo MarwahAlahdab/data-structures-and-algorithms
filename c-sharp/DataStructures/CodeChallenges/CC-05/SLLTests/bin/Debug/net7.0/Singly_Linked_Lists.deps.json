@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Singly_Linked_Lists/1.0.0": {
+        "runtime": {
+          "Singly_Linked_Lists.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Singly_Linked_Lists/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
