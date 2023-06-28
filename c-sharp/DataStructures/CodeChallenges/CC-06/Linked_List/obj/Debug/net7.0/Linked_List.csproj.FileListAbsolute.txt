@@ -1,0 +1,15 @@
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-06/Linked_List/bin/Debug/net7.0/Linked_List
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-06/Linked_List/bin/Debug/net7.0/Linked_List.deps.json
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-06/Linked_List/bin/Debug/net7.0/Linked_List.runtimeconfig.json
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-06/Linked_List/bin/Debug/net7.0/Linked_List.dll
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-06/Linked_List/bin/Debug/net7.0/Linked_List.pdb
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-06/Linked_List/obj/Debug/net7.0/Linked_List.csproj.AssemblyReference.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-06/Linked_List/obj/Debug/net7.0/Linked_List.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-06/Linked_List/obj/Debug/net7.0/Linked_List.AssemblyInfoInputs.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-06/Linked_List/obj/Debug/net7.0/Linked_List.AssemblyInfo.cs
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-06/Linked_List/obj/Debug/net7.0/Linked_List.csproj.CoreCompileInputs.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-06/Linked_List/obj/Debug/net7.0/Linked_List.dll
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-06/Linked_List/obj/Debug/net7.0/refint/Linked_List.dll
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-06/Linked_List/obj/Debug/net7.0/Linked_List.pdb
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-06/Linked_List/obj/Debug/net7.0/Linked_List.genruntimeconfig.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/CodeChallenges/CC-06/Linked_List/obj/Debug/net7.0/ref/Linked_List.dll
