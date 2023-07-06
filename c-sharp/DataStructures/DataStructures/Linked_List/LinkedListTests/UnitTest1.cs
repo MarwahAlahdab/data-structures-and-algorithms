@@ -251,7 +251,80 @@ public class UnitTest1
     Assert.Equal(3, result);
   }
 
+
+
+
+
+
+
+
+
+  //CC-07
+
+
+
+
+
+
+
+  [Fact]
+  public void ZipLists_EmptyLists_ReturnsEmptyList()
+  {
+    // Arrange
+    LinkedList list1 = new LinkedList();
+    LinkedList list2 = new LinkedList();
+
+    // Act
+    LinkedList zippedList = Program.ZipLists(list1, list2);
+
+    // Assert
+    Assert.Null(zippedList.head);
+  }
+
+
+
+  [Fact]
+  public void ZipLists_TwoLists_ReturnsZippedList()
+  {
+
+    LinkedList list1 = new LinkedList();
+    list1.Append(1);
+    list1.Append(3);
+    list1.Append(5);
+
+  
+    LinkedList list2 = new LinkedList();
+    list2.Append(2);
+    list2.Append(4);
+    list2.Append(6);
+
+
+    LinkedList zippedList = Program.ZipLists(list1, list2);
+
+    // Assert
+    Assert.Equal(1, zippedList.head.Data);
+    Assert.Equal(2, zippedList.head.Next.Data);
+    Assert.Equal(3, zippedList.head.Next.Next.Data);
+    Assert.Equal(4, zippedList.head.Next.Next.Next.Data);
+    Assert.Equal(5, zippedList.head.Next.Next.Next.Next.Data);
+    Assert.Equal(6, zippedList.tail.Data);
+    Assert.Null(zippedList.tail.Next);
+  }
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 

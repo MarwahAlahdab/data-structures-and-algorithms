@@ -8,33 +8,46 @@ public class Program
 {
   private static void Main(string[] args)
   {
+    //LinkedList list1 = new LinkedList();
+
+    //list1.Append(1);
+    //list1.Append(3);
+    //list1.Append(8);
+    //list1.Append(2);
+
+    //try
+    //{
+    //  //list1.InsertBefore(30, 3);
+    //  //list1.InsertAfter(30, 40);
+    //  int kthValue = list1.KthFromEnd(2);
+    //  Console.WriteLine("Kth Value: " + kthValue);
+     
+    //}
+    //catch (ArgumentException ex)
+    //{
+    //  Console.WriteLine(ex.Message );
+    //}
+
+
+    //Console.WriteLine(list1.PrintList());
+
 
     LinkedList list1 = new LinkedList();
-
     list1.Append(1);
     list1.Append(3);
-    list1.Append(8);
-    list1.Append(2);
+    list1.Append(5);
 
-    try
-    {
-      //list1.InsertBefore(30, 3);
-      //list1.InsertAfter(30, 40);
-      int kthValue = list1.KthFromEnd(2);
-      Console.WriteLine("Kth Value: " + kthValue);
-     
-    }
-    catch (ArgumentException ex)
-    {
-      Console.WriteLine(ex.Message );
-    }
+    LinkedList list2 = new LinkedList();
+    list2.Append(2);
+    list2.Append(4);
+    list2.Append(6);
 
 
     Console.WriteLine(list1.PrintList());
+    Console.WriteLine(list2.PrintList());
+    LinkedList zippedList = ZipLists(list1, list2);
+    Console.WriteLine(zippedList.PrintList());
 
-
-
-  
 
 
 
@@ -303,7 +316,7 @@ public class Program
     }
 
 
-
+    
 
 
 
@@ -315,7 +328,43 @@ public class Program
 
 
 
+  //    Return: New Linked List, zipped as noted below
+  //Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the the zipped list.
+  //Try and keep additional space down to O(1)
 
+
+  public static LinkedList ZipLists(LinkedList l1, LinkedList l2)
+  {
+    LinkedList l3 = new LinkedList();
+
+    Node current1 = l1.head;
+    Node current2 = l2.head;
+
+
+
+    while (current1 != null || current2 != null)
+    {
+      if (current1 != null)
+      {
+        l3.Append(current1.Data);
+        current1 = current1.Next;
+      }
+
+      if (current2 != null)
+      {
+        l3.Append(current2.Data);
+        current2 = current2.Next;
+      }
+
+
+
+    }
+
+
+
+    return l3;
+
+  }
 
 
 
