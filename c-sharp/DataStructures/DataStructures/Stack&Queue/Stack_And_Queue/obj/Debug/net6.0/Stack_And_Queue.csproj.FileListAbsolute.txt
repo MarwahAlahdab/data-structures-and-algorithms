@@ -1,0 +1,15 @@
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Stack&Queue/Stack/Stack_And_Queue/bin/Debug/net6.0/Stack_And_Queue
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Stack&Queue/Stack/Stack_And_Queue/bin/Debug/net6.0/Stack_And_Queue.deps.json
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Stack&Queue/Stack/Stack_And_Queue/bin/Debug/net6.0/Stack_And_Queue.runtimeconfig.json
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Stack&Queue/Stack/Stack_And_Queue/bin/Debug/net6.0/Stack_And_Queue.dll
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Stack&Queue/Stack/Stack_And_Queue/bin/Debug/net6.0/Stack_And_Queue.pdb
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Stack&Queue/Stack/Stack_And_Queue/obj/Debug/net6.0/Stack_And_Queue.csproj.AssemblyReference.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Stack&Queue/Stack/Stack_And_Queue/obj/Debug/net6.0/Stack_And_Queue.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Stack&Queue/Stack/Stack_And_Queue/obj/Debug/net6.0/Stack_And_Queue.AssemblyInfoInputs.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Stack&Queue/Stack/Stack_And_Queue/obj/Debug/net6.0/Stack_And_Queue.AssemblyInfo.cs
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Stack&Queue/Stack/Stack_And_Queue/obj/Debug/net6.0/Stack_And_Queue.csproj.CoreCompileInputs.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Stack&Queue/Stack/Stack_And_Queue/obj/Debug/net6.0/Stack_And_Queue.dll
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Stack&Queue/Stack/Stack_And_Queue/obj/Debug/net6.0/refint/Stack_And_Queue.dll
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Stack&Queue/Stack/Stack_And_Queue/obj/Debug/net6.0/Stack_And_Queue.pdb
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Stack&Queue/Stack/Stack_And_Queue/obj/Debug/net6.0/Stack_And_Queue.genruntimeconfig.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Stack&Queue/Stack/Stack_And_Queue/obj/Debug/net6.0/ref/Stack_And_Queue.dll
