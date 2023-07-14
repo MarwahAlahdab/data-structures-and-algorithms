@@ -9,3 +9,16 @@
 - **Queue:** The Queue class allows you to enqueue elements into the queue, dequeue elements from the front of the queue, peek and check if the queue is empty.
 
 
+# CC-11 (Implement a Queue using two Stacks)
+
+
+# PseudoQueue Class
+
+This class contains an implementation of a queue data structure using two internally managed stacks. It provides a (FIFO) approach for inserting and extracting values.
+
+## Features
+
+- **Enqueue:** Takes a value as an argument, Inserts a value into the PseudoQueue.
+- **Dequeue:** Extracts a value from the PseudoQueue using a FIFO approach.
+
+![Whiteboard](./cc11.jpeg)

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Stack&Queue/Stack/Stack_And_Queue/Stack_And_Queue.csproj",
+      "projectUniqueName": "/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Stack&Queue/Stack_And_Queue/Stack_And_Queue.csproj",
       "projectName": "Stack_And_Queue",
-      "projectPath": "/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Stack&Queue/Stack/Stack_And_Queue/Stack_And_Queue.csproj",
+      "projectPath": "/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Stack&Queue/Stack_And_Queue/Stack_And_Queue.csproj",
       "packagesPath": "/Users/marwaalahdab/.nuget/packages/",
-      "outputPath": "/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Stack&Queue/Stack/Stack_And_Queue/obj/",
+      "outputPath": "/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Stack&Queue/Stack_And_Queue/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/marwaalahdab/.nuget/NuGet/NuGet.Config"

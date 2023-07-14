@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kA7Iy6Gr/bvBT+uk66jPHMLzrkcK6/JwE15Bf6MourF/9iJqfoD1/M2eQbg7uwufPdr6pDYqBPNXVxn9yjVLSQ==",
+  "dgSpecHash": "i1VGBQEf4AbEMvKBtipNSXE7Ox1c+xBQFwZCxrXmWLy3ks/MWzpPd/WCDcC6Kzp6elUnpEgTILwulRNwLnq9CQ==",
   "success": true,
-  "projectFilePath": "/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Stack&Queue/Stack/StackQueueTests/StackQueueTests.csproj",
+  "projectFilePath": "/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Stack&Queue/StackQueueTests/StackQueueTests.csproj",
   "expectedPackageFiles": [
     "/Users/marwaalahdab/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
     "/Users/marwaalahdab/.nuget/packages/microsoft.codecoverage/17.1.0/microsoft.codecoverage.17.1.0.nupkg.sha512",
