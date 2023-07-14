@@ -39,5 +39,38 @@ internal class Program
     Console.WriteLine("Front element of queue: " + front2);
 
 
+
+
+
+
+    // CC 11
+
+    PseudoQueue<int> pseudoQueue = new PseudoQueue<int>();
+
+    // Enqueue some elements
+    pseudoQueue.Enqueue(10);
+    pseudoQueue.Enqueue(15);
+    pseudoQueue.Enqueue(20);
+    pseudoQueue.Enqueue(5);
+
+
+   
+
+    try
+    {
+      Console.WriteLine(pseudoQueue.Dequeue());
+      Console.WriteLine(pseudoQueue.Dequeue());
+      Console.WriteLine(pseudoQueue.Dequeue());
+      Console.WriteLine(pseudoQueue.Dequeue());
+      Console.WriteLine(pseudoQueue.Dequeue()); // Throws InvalidOperationException
+    }
+    catch (InvalidOperationException ex)
+    {
+      Console.WriteLine(ex.Message);
+    }
+   
+
+
+
   }
 }
