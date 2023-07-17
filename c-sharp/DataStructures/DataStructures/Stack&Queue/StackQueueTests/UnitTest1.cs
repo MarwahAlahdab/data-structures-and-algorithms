@@ -244,6 +244,49 @@ public class UnitTest1
 
 
 
+
+
+
+
+  // Pseudo Queue tests  CC-11
+
+
+  [Fact]
+  public void EnqueueAndDequeue_MultipleValues_Successfully()
+  {
+   
+    PseudoQueue<int> pseudoQueue = new PseudoQueue<int>();
+
+    pseudoQueue.Enqueue(10);
+    pseudoQueue.Enqueue(20);
+    pseudoQueue.Enqueue(30);
+    int result1 = pseudoQueue.Dequeue();
+    int result2 = pseudoQueue.Dequeue();
+    int result3 = pseudoQueue.Dequeue();
+
+    Assert.Equal(10, result1);
+    Assert.Equal(20, result2);
+    Assert.Equal(30, result3);
+  }
+
+
+
+
+  [Fact]
+  public void Dequeue_EmptyQueue_ThrowsException()
+  {
+    // 
+    PseudoQueue<int> pseudoQueue = new PseudoQueue<int>();
+
+    
+    Assert.Throws<InvalidOperationException>(() => pseudoQueue.Dequeue());
+  }
+
+
+
+
+
+
 }
 
 
