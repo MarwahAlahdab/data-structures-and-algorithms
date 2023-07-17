@@ -48,6 +48,22 @@ public class Program
     LinkedList zippedList = ZipLists(list1, list2);
     Console.WriteLine(zippedList.PrintList());
 
+    LinkedList list3 = new LinkedList();
+
+     list1.ReverseLinkedList();
+    Console.WriteLine(list1.PrintList());
+
+
+    LinkedList list = new LinkedList();
+    list.Append(1);
+    list.Append(2);
+    list.Append(3);
+    list.Append(5);
+    list.Append(1);
+
+    bool isPalindrome = list.Palindrome();
+
+    Console.WriteLine("Is Palindrome: " + isPalindrome);
 
 
 
@@ -316,8 +332,78 @@ public class Program
     }
 
 
-    
 
+
+
+
+    public void ReverseLinkedList()
+    {
+      Node prev = null;
+      Node current = head;
+      Node next = null;
+
+      while (current != null)
+      {
+        next = current.Next;
+        current.Next = prev;
+        prev = current;
+        current = next;
+      }
+
+      tail = head;
+      head = prev;
+    }
+
+
+
+    public bool Palindrome()
+    {
+      if (IsEmpty() || head.Next == null)
+      {
+        // If empty or single element then its palindrome
+        return true;
+      }
+
+      // Find the middle node 
+      Node slow = head;
+      Node fast = head;
+      Node prev = null;
+
+      while (fast != null && fast.Next != null)
+      {
+        fast = fast.Next.Next;
+
+       
+        Node nextNode = slow.Next;
+        slow.Next = prev;  // this will Reverse the first half
+        prev = slow;
+        slow = nextNode;
+      }
+
+      // If the fast is not null -> list has an odd number of elements
+      // move slow to skip the middle 
+      if (fast != null)
+      {
+        slow = slow.Next;
+      }
+
+      // Compare the two halfs
+      while (slow != null)
+      {
+        if (slow.Data != prev.Data)
+        {
+          return false;
+        }
+        slow = slow.Next;
+        prev = prev.Next;
+      }
+
+      return true;
+    }
+
+    //How it works (split the list & compare): 1 -> 2 -> 3 -> 3 -> 2 -> 1     (even length)
+    //list1: 1 <- 2 <- 3
+    //list2: 3 -> 2 -> 1
 
 
 
@@ -365,6 +451,7 @@ public class Program
     return l3;
 
   }
+
 
 
 
