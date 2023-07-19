@@ -3,6 +3,7 @@ using System.Diagnostics.Metrics;
 using System.Dynamic;
 using Newtonsoft.Json.Linq;
 using Stack_And_Queue;
+using Stack_And_Queue.CC12;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace StackQueueTests;
@@ -283,6 +284,57 @@ public class UnitTest1
   }
 
 
+
+
+
+  // AnimalShelter CC-12
+
+  [Fact]
+  public void Enqueue_Enqueue_Success()
+  {
+    // Arrange
+    var shelter = new AnimalShelter();
+    var dog = new Animal("dog", "dog1");
+
+    // Act
+    shelter.Enqueue(dog);
+
+    // Assert
+    Assert.Equal(dog, shelter.dogs.Peek());
+  }
+
+
+
+  [Fact]
+  public void Dequeue_PreferDog_ReturnsDog()
+  {
+    // Arrange
+    var shelter = new AnimalShelter();
+    var dog = new Animal("dog", "dog1");
+    shelter.Enqueue(dog);
+
+    var result = shelter.Dequeue("dog");
+
+    Assert.Equal(dog, result);
+  }
+
+
+
+  [Fact]
+  public void Dequeue_PreferUnknown_ReturnsOldestAnimal()
+  {
+    var shelter = new AnimalShelter();
+    var dog = new Animal("dog", "dog1");
+    var cat = new Animal("cat", "dog1");
+    shelter.Enqueue(dog);
+    shelter.Enqueue(cat);
+
+    var result = shelter.Dequeue("unknown");
+
+    Assert.Equal(dog, result);
+  }
+
+  
 
 
 
