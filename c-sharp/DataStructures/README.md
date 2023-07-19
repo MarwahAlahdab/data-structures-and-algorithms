@@ -12,3 +12,6 @@
 
 CC -11
 [Queue using two Stacks](./DataStructures/Stack&Queue/README.md)
+
+CC -12
+[First-in, First out Animal Shelter](./DataStructures/Stack&Queue/README.md)
