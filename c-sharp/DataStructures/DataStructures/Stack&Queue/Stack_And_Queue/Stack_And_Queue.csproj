@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="CC12\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CC12\" />
+  </ItemGroup>
 </Project>

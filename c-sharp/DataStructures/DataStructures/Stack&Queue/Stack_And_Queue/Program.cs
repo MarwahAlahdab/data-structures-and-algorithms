@@ -1,4 +1,6 @@
 using Stack_And_Queue;
+using Stack_And_Queue.CC12;
+
 internal class Program
 {
   private static void Main(string[] args)
@@ -54,7 +56,7 @@ internal class Program
     pseudoQueue.Enqueue(5);
 
 
-   
+
 
     try
     {
@@ -68,7 +70,6 @@ internal class Program
     {
       Console.WriteLine(ex.Message);
     }
-   
 
 
 

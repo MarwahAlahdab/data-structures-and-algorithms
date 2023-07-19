@@ -22,3 +22,19 @@ This class contains an implementation of a queue data structure using two intern
 - **Dequeue:** Extracts a value from the PseudoQueue using a FIFO approach.
 
 ![Whiteboard](./cc11.jpeg)
+
+----------------------------------
+
+# CC-12 (First-in, First out Animal Shelter.)
+
+Class: AnimalShelter
+
+Properties:
+- Queue dogs
+- Queue cats
+
+Methods
+- Enqueue (Animal animal)
+- Dequeue (string pref)
+
+![Whiteboard](./cc12.jpeg)
