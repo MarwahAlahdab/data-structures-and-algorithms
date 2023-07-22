@@ -9,8 +9,10 @@
 
   <ItemGroup>
     <None Remove="CC12\" />
+    <None Remove="CC13\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CC12\" />
+    <Folder Include="CC13\" />
   </ItemGroup>
 </Project>

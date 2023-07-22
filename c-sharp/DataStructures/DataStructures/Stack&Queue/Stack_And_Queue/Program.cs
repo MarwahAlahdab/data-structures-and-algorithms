@@ -1,5 +1,6 @@
 using Stack_And_Queue;
 using Stack_And_Queue.CC12;
+using Stack_And_Queue.CC13;
 
 internal class Program
 {
@@ -70,6 +71,21 @@ internal class Program
     {
       Console.WriteLine(ex.Message);
     }
+
+
+    //BracketsValidation bracketsValidation = new BracketsValidation();
+
+    //string example1 = "{}(){}";
+    //string example2 = "()[[Extra Characters]]";
+    //string example3 = "[({}]";
+
+    //Console.WriteLine("Example 1: " + bracketsValidation.ValidateBrackets(example1)); // Output: True
+    //Console.WriteLine("Example 2: " + bracketsValidation.ValidateBrackets(example2)); // Output: True
+    //Console.WriteLine("Example 3: " + bracketsValidation.ValidateBrackets(example3)); // Output: False
+
+
+
+
 
 
 

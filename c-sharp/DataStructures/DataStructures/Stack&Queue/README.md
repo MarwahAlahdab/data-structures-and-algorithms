@@ -38,3 +38,14 @@ Methods
 - Dequeue (string pref)
 
 ![Whiteboard](./cc12.jpeg)
+
+----------------------------------
+
+# CC-13 (Multi-bracket Validation)
+
+Method: ValidateBrackets
+
+
+
+![Whiteboard](./cc13.jpeg)
+
