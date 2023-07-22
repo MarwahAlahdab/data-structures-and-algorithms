@@ -4,16 +4,14 @@ using System.Dynamic;
 using Newtonsoft.Json.Linq;
 using Stack_And_Queue;
 using Stack_And_Queue.CC12;
+using Stack_And_Queue.CC13;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace StackQueueTests;
 
 public class UnitTest1
 {
-    [Fact]
-  public void Test1()
-  {
-  }
+    
 
 
 
@@ -334,11 +332,63 @@ public class UnitTest1
     Assert.Equal(dog, result);
   }
 
-  
 
+
+  // Multi-bracket Validation  CC-13
+
+
+   BracketsValidation validator = new BracketsValidation();
+
+
+
+  [Fact]
+  public void TestBalancedBrackets_ReturnsTrue()
+  {
+    string example1 = "{}(){}";
+    string example2 = "()[[Extra Characters]]";
+    string example3 = "[({})]";
+    string example4 = "({[{}]}[])";
+
+    Assert.True(validator.ValidateBrackets(example1));
+    Assert.True(validator.ValidateBrackets(example2));
+    Assert.True(validator.ValidateBrackets(example3));
+    Assert.True(validator.ValidateBrackets(example4));
+  }
+
+  [Fact]
+  public void TestUnbalancedBrackets_ReturnsFalse()
+  {
+    string example1 = "(](";
+    string example2 = "}";
+    string example3 = "[}";
+    string example4 = "[({}]";
+
+    Assert.False(validator.ValidateBrackets(example1));
+    Assert.False(validator.ValidateBrackets(example2));
+    Assert.False(validator.ValidateBrackets(example3));
+    Assert.False(validator.ValidateBrackets(example4));
+  }
+
+
+
+  [Fact]
+  public void TestWithCharacters_Succefully()
+  {
+    string example1 = "{a}(b)c";
+    string example2 = "[abc]def";
+    string example3 = "{[}(ac)";
+
+    Assert.True(validator.ValidateBrackets(example1));
+    Assert.True(validator.ValidateBrackets(example2));
+    Assert.False(validator.ValidateBrackets(example3));
+  }
 
 
 
 }
+
+
+
+
 
 
