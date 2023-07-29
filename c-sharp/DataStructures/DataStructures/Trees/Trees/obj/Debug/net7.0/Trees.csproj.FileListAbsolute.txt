@@ -1,0 +1,15 @@
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Trees/Trees/bin/Debug/net7.0/Trees
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Trees/Trees/bin/Debug/net7.0/Trees.deps.json
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Trees/Trees/bin/Debug/net7.0/Trees.runtimeconfig.json
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Trees/Trees/bin/Debug/net7.0/Trees.dll
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Trees/Trees/bin/Debug/net7.0/Trees.pdb
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Trees/Trees/obj/Debug/net7.0/Trees.csproj.AssemblyReference.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Trees/Trees/obj/Debug/net7.0/Trees.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Trees/Trees/obj/Debug/net7.0/Trees.AssemblyInfoInputs.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Trees/Trees/obj/Debug/net7.0/Trees.AssemblyInfo.cs
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Trees/Trees/obj/Debug/net7.0/Trees.csproj.CoreCompileInputs.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Trees/Trees/obj/Debug/net7.0/Trees.dll
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Trees/Trees/obj/Debug/net7.0/refint/Trees.dll
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Trees/Trees/obj/Debug/net7.0/Trees.pdb
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Trees/Trees/obj/Debug/net7.0/Trees.genruntimeconfig.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/c-sharp/DataStructures/DataStructures/Trees/Trees/obj/Debug/net7.0/ref/Trees.dll
