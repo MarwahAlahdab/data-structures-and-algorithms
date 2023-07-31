@@ -77,7 +77,44 @@ namespace Trees
       }
     }
 
+    /*
+     * find maximum value
+Arguments: none
+Returns: number
+Find the maximum value stored in the tree. You can assume that the values stored in the Binary Tree will be numeric.
+    */
 
+
+
+
+    public int FindMaxValue()
+    {
+      if (Root == null)
+        throw new InvalidOperationException("Tree is empty");
+
+      return FindMaxValueRecursive(Root);
+    }
+
+
+
+    private int FindMaxValueRecursive(Node<T> node)
+    {
+      int max = Convert.ToInt32(node.Value);
+
+      if (node.Left != null)
+      {
+        int leftMax = FindMaxValueRecursive(node.Left);
+        max = Math.Max(max, leftMax);
+      }
+
+      if (node.Right != null)
+      {
+        int rightMax = FindMaxValueRecursive(node.Right);
+        max = Math.Max(max, rightMax);
+      }
+
+      return max;
+    }
 
 
 
