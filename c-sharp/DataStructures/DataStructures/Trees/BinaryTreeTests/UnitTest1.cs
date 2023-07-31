@@ -139,5 +139,34 @@ public class UnitTest1
 
     Assert.False(bst.Contains(3));
   }
+
+
+
+
+  [Fact]
+  public void FindMaxValue_EmptyTree_ThrowsException()
+  {
+    // 
+    BinaryTree<int> binaryTree = new BinaryTree<int>();
+
+    Assert.Throws<InvalidOperationException>(() => binaryTree.FindMaxValue());
+  }
+
+  
+
+  [Fact]
+  public void FindMaxValue_ReturnsMaxValue()
+  {
+    BinarySearchTree<int> binarySearchTree = new BinarySearchTree<int>();
+    binarySearchTree.Add(10);
+    binarySearchTree.Add(15);
+    binarySearchTree.Add(5);
+    binarySearchTree.Add(3);
+    binarySearchTree.Add(8);
+
+    int maxValue = binarySearchTree.FindMaxValue();
+
+    Assert.Equal(15, maxValue);
+  }
 }
 
