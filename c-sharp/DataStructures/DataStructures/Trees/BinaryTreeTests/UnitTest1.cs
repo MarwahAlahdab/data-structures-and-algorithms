@@ -142,6 +142,7 @@ public class UnitTest1
 
 
 
+  //cc16
 
   [Fact]
   public void FindMaxValue_EmptyTree_ThrowsException()
@@ -168,5 +169,46 @@ public class UnitTest1
 
     Assert.Equal(15, maxValue);
   }
+
+
+
+
+
+  //cc-17
+
+  [Fact]
+  public void BreadthFirstTraversal_NullTree_ReturnEmptyList()
+  {
+    BinaryTree<int> binaryTree = new BinaryTree<int>();
+
+    List<int> result = binaryTree.BreadthFirstTraversal(binaryTree);
+
+    Assert.Empty(result);
+  }
+
+
+  [Fact]
+  public void BreadthFirstTraversal_ReturnCorrectOrder()
+  {
+    BinaryTree<int> binaryTree = new BinaryTree<int>();
+    binaryTree.Root = new Node<int>(2);
+    binaryTree.Root.Left = new Node<int>(7);
+    binaryTree.Root.Right = new Node<int>(5);
+    binaryTree.Root.Left.Left = new Node<int>(2);
+    binaryTree.Root.Left.Right = new Node<int>(6);
+    binaryTree.Root.Right.Right = new Node<int>(9);
+    binaryTree.Root.Left.Right.Left = new Node<int>(5);
+    binaryTree.Root.Left.Right.Right = new Node<int>(11);
+    binaryTree.Root.Right.Right.Left = new Node<int>(4);
+
+   
+    List<int> result = binaryTree.BreadthFirstTraversal(binaryTree);
+
+    int[] expectedOrder = new int[] { 2, 7, 5, 2, 6, 9, 5, 11, 4 };
+    Assert.Equal(expectedOrder, result);
+  }
+
+
+
 }
 

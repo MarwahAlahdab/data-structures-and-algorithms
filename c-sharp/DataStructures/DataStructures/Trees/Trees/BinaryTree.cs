@@ -118,5 +118,44 @@ Find the maximum value stored in the tree. You can assume that the values stored
 
 
 
-  }
+
+    /*
+     Write a function called breadth first
+Arguments: tree
+Return: list of all values in the tree, in the order they were encountered
+NOTE: Traverse the input tree using a Breadth-first approach
+    */
+
+    public List<T> BreadthFirstTraversal(BinaryTree<T> tree)
+    {
+
+
+       List<T> result = new List<T>();
+        if (tree.Root == null)
+            return result;
+
+        Queue<Node<T>> queue = new Queue<Node<T>>();
+        queue.Enqueue(tree.Root);
+
+        while (queue.Count > 0)
+        {
+            Node<T> currentNode = queue.Dequeue();
+            result.Add(currentNode.Value);
+
+            if (currentNode.Left != null)
+                queue.Enqueue(currentNode.Left);
+
+            if (currentNode.Right != null)
+                queue.Enqueue(currentNode.Right);
+        }
+
+        return result;
+
+
+
+    }
+
+
+
+    }
 }
