@@ -22,8 +22,24 @@ internal class Program
     Console.WriteLine("Contains 10: " + bst.Contains(10)); // false
 
 
+    Console.WriteLine("-------------"); 
+
+    BinaryTree<int> binaryTree = new BinaryTree<int>();
+    binaryTree.Root = new Node<int>(2);
+    binaryTree.Root.Left = new Node<int>(7);
+    binaryTree.Root.Right = new Node<int>(5);
+    binaryTree.Root.Left.Left = new Node<int>(2);
+    binaryTree.Root.Left.Right = new Node<int>(6);
+    binaryTree.Root.Right.Right = new Node<int>(9);
+    binaryTree.Root.Left.Right.Left = new Node<int>(5);
+    binaryTree.Root.Left.Right.Right = new Node<int>(11);
+    binaryTree.Root.Right.Right.Left = new Node<int>(4);
+
+    List<int> values = binaryTree.BreadthFirstTraversal(binaryTree);
+    string output = "[" + string.Join(",", values) + "]";
+
+    Console.WriteLine(output);
 
 
- 
   }
 }

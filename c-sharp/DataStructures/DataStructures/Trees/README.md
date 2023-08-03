@@ -62,3 +62,52 @@ class Program
 Output:
 
 Maximum value in the binary tree: 20
+
+
+// CC-17
+
+# Binary Tree Breadth-First Traversal
+
+## Description
+A method to implement a breadth-first traversal algorithm for a binary tree, and returns a list of all values encountered in the order they were encountered.
+**breadth-first traversal visits all the nodes of the binary tree level by level, from left to right**
+
+## Whiteboard Process
+![](./cc17.jpeg)
+
+## Approach & Efficiency
+To perform a breadth-first traversal, we use a queue data structure, The algorithm starts with the root node and enqueues it into the queue.
+Then, "while" the queue is not empty, we dequeue a node from the front of the queue, add its value to the result list, and enqueue its left and right children (if present).
+
+The time complexity of the breadth-first traversal algorithm is O(n) because we visit each node in the binary tree exactly once.
+The space complexity is O(n), as it returns a list of all nodes
+
+## Solution
+
+Example:
+```csharp
+
+        BinaryTree<int> binaryTree = new BinaryTree<int>();
+        binaryTree.Root = new Node<int>(2);
+        binaryTree.Root.Left = new Node<int>(7);
+        binaryTree.Root.Right = new Node<int>(5);
+        binaryTree.Root.Left.Left = new Node<int>(2);
+        binaryTree.Root.Left.Right = new Node<int>(6);
+        binaryTree.Root.Right.Right = new Node<int>(9);
+        binaryTree.Root.Left.Right.Left = new Node<int>(5);
+        binaryTree.Root.Left.Right.Right = new Node<int>(11);
+        binaryTree.Root.Right.Right.Left = new Node<int>(4);
+
+        List<int> result = binaryTree.BreadthFirstTraversal(binaryTree.Root);
+        Console.WriteLine("Breadth-First Traversal Result:");
+        Console.WriteLine("[" + string.Join(",", result) + "]");
+
+```
+
+Output:
+```
+Breadth-First Traversal Result:
+[2,7,5,2,6,9,5,11,4]
+```
+
+
