@@ -111,3 +111,60 @@ Breadth-First Traversal Result:
 ```
 
 
+// CC- 18
+# Challenge Title
+Conduct “FizzBuzz” on a k-ary tree while traversing through it to create a new tree.
+
+Set the values of each of the new nodes depending on the corresponding node value in the source tree
+
+
+If the value is divisible by 3, replace the value with “Fizz”
+If the value is divisible by 5, replace the value with “Buzz”
+If the value is divisible by 3 and 5, replace the value with “FizzBuzz”
+If the value is not divisible by 3 or 5, simply turn the number into a String.
+
+
+## Whiteboard Process
+![](./cc18.jpeg)
+
+## Approach & Efficiency
+For the FizzBuzzTree implementation, the approach is similar to a breadth-first traversal, using a queue
+
+
+Time Complexity -> O(n) because the method needs to traverse the entire binary tree
+
+Space Complexity -> O(n) because it returns a new tree of type string
+
+
+
+## Solution
+
+Example:
+```csharp
+
+BinarySearchTree<int> tree = new BinarySearchTree<int>();
+    tree.Add(5);
+    tree.Add(7);
+    tree.Add(9);
+    tree.Add(15);
+
+
+    BinarySearchTree<string> fizzBuzzTree = tree.FizzBuzz(tree);
+
+    List<string> fizzBuzzValues = fizzBuzzTree.BreadthFirstTraversal(fizzBuzzTree);
+    Console.WriteLine("FizzBuzz Tree values:");
+    foreach (string value in fizzBuzzValues)
+    {
+      Console.WriteLine(value);
+    }
+```
+
+Output:
+
+```
+FizzBuzz Tree values:
+Buzz
+7
+Fizz
+FizzBuzz
+```
