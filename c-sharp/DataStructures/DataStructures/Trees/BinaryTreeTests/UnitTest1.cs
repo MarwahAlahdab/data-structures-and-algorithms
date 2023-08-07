@@ -209,6 +209,33 @@ public class UnitTest1
   }
 
 
+  //CC18
+
+
+  [Fact]
+  public void FizzBuzz_ReturnsCorrectTree()
+  {
+    // Arrange
+    BinarySearchTree<int> tree = new BinarySearchTree<int>();
+    tree.Add(5);
+    tree.Add(7);
+    tree.Add(9);
+    tree.Add(15);
+
+    BinarySearchTree<string> expected = new BinarySearchTree<string>();
+    expected.Add("Buzz");
+    expected.Add("7");
+    expected.Add("Fizz");
+    expected.Add("FizzBuzz");
+
+
+    BinarySearchTree<string> result = tree.FizzBuzz(tree);
+
+
+    Assert.Equal(expected.PreOrderTraversal(), result.PreOrderTraversal());
+  }
+
+
 
 }
 
