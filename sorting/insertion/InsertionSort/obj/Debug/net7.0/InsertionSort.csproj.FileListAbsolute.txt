@@ -1,0 +1,15 @@
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/insertion/InsertionSort/bin/Debug/net7.0/InsertionSort
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/insertion/InsertionSort/bin/Debug/net7.0/InsertionSort.deps.json
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/insertion/InsertionSort/bin/Debug/net7.0/InsertionSort.runtimeconfig.json
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/insertion/InsertionSort/bin/Debug/net7.0/InsertionSort.dll
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/insertion/InsertionSort/bin/Debug/net7.0/InsertionSort.pdb
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/insertion/InsertionSort/obj/Debug/net7.0/InsertionSort.csproj.AssemblyReference.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/insertion/InsertionSort/obj/Debug/net7.0/InsertionSort.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/insertion/InsertionSort/obj/Debug/net7.0/InsertionSort.AssemblyInfoInputs.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/insertion/InsertionSort/obj/Debug/net7.0/InsertionSort.AssemblyInfo.cs
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/insertion/InsertionSort/obj/Debug/net7.0/InsertionSort.csproj.CoreCompileInputs.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/insertion/InsertionSort/obj/Debug/net7.0/InsertionSort.dll
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/insertion/InsertionSort/obj/Debug/net7.0/refint/InsertionSort.dll
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/insertion/InsertionSort/obj/Debug/net7.0/InsertionSort.pdb
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/insertion/InsertionSort/obj/Debug/net7.0/InsertionSort.genruntimeconfig.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/insertion/InsertionSort/obj/Debug/net7.0/ref/InsertionSort.dll
