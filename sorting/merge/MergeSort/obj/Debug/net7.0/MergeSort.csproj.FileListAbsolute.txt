@@ -1,0 +1,15 @@
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/merge/MergeSort/bin/Debug/net7.0/MergeSort
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/merge/MergeSort/bin/Debug/net7.0/MergeSort.deps.json
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/merge/MergeSort/bin/Debug/net7.0/MergeSort.runtimeconfig.json
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/merge/MergeSort/bin/Debug/net7.0/MergeSort.dll
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/merge/MergeSort/bin/Debug/net7.0/MergeSort.pdb
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/merge/MergeSort/obj/Debug/net7.0/MergeSort.csproj.AssemblyReference.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/merge/MergeSort/obj/Debug/net7.0/MergeSort.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/merge/MergeSort/obj/Debug/net7.0/MergeSort.AssemblyInfoInputs.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/merge/MergeSort/obj/Debug/net7.0/MergeSort.AssemblyInfo.cs
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/merge/MergeSort/obj/Debug/net7.0/MergeSort.csproj.CoreCompileInputs.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/merge/MergeSort/obj/Debug/net7.0/MergeSort.dll
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/merge/MergeSort/obj/Debug/net7.0/refint/MergeSort.dll
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/merge/MergeSort/obj/Debug/net7.0/MergeSort.pdb
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/merge/MergeSort/obj/Debug/net7.0/MergeSort.genruntimeconfig.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/merge/MergeSort/obj/Debug/net7.0/ref/MergeSort.dll
