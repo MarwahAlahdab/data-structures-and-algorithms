@@ -1,0 +1,15 @@
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/Comparisons/Sorting/bin/Debug/net7.0/Sorting
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/Comparisons/Sorting/bin/Debug/net7.0/Sorting.deps.json
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/Comparisons/Sorting/bin/Debug/net7.0/Sorting.runtimeconfig.json
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/Comparisons/Sorting/bin/Debug/net7.0/Sorting.dll
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/Comparisons/Sorting/bin/Debug/net7.0/Sorting.pdb
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/Comparisons/Sorting/obj/Debug/net7.0/Sorting.csproj.AssemblyReference.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/Comparisons/Sorting/obj/Debug/net7.0/Sorting.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/Comparisons/Sorting/obj/Debug/net7.0/Sorting.AssemblyInfoInputs.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/Comparisons/Sorting/obj/Debug/net7.0/Sorting.AssemblyInfo.cs
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/Comparisons/Sorting/obj/Debug/net7.0/Sorting.csproj.CoreCompileInputs.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/Comparisons/Sorting/obj/Debug/net7.0/Sorting.dll
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/Comparisons/Sorting/obj/Debug/net7.0/refint/Sorting.dll
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/Comparisons/Sorting/obj/Debug/net7.0/Sorting.pdb
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/Comparisons/Sorting/obj/Debug/net7.0/Sorting.genruntimeconfig.cache
+/Users/marwaalahdab/Desktop/Advanced/data-structures-and-algorithms/sorting/Comparisons/Sorting/obj/Debug/net7.0/ref/Sorting.dll
