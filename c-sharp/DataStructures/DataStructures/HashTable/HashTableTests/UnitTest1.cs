@@ -40,7 +40,7 @@ public class UnitTest1
     hashMap.Set("key1", "value1");
     hashMap.Set("key2", "value2");
     hashMap.Set("key3", "value3");
-    var keys = hashMap.Key();
+    var keys = hashMap.Keys();
     Assert.Contains("key1", keys);
     Assert.Contains("key2", keys);
     Assert.Contains("key3", keys);
@@ -79,6 +79,37 @@ public class UnitTest1
     int hashValue = hashMap.Hash("myKey");
     Assert.InRange(hashValue, 0, 9);
   }
+
+
+
+  //CC- 31
+
+  [Fact]
+  public void RepeatedWord_ReturnFirstRepeatedWord()
+  {
+    var hashMap = new HashMap(100);
+    var input = "Once upon a time, there was a brave princess who...";
+
+    
+    var result = hashMap.RepeatedWord(input);
+
+    Assert.Equal("a", result);
+  }
+
+  [Fact]
+  public void RepeatedWord_ReturnFirstRepeatedWord_WhenMultiple()
+  {
+
+    var hashMap = new HashMap(100);
+    var input = "It was the best of times, it was the worst of times...";
+
+  
+    var result = hashMap.RepeatedWord(input);
+
+    Assert.Equal("it", result);
+  }
+
+
 
 
 
