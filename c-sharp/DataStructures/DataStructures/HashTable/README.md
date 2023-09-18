@@ -40,6 +40,12 @@ The `Key` method returns a list of all unique keys in the Hashtable. It traverse
 4. Use the `Has` method to check for key existence.
 5. Use the `Key` method to retrieve a list of unique keys.
 
+
+6. Use the `RepeatedWord` method to find the first word to occur more than once in a string
+
+
+
+
 ```csharp
 var hashMap = new HashMap(10);
 hashMap.Set("key1", "value1");

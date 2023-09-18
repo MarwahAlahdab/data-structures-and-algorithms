@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 namespace HashTables
 {
@@ -170,7 +171,32 @@ namespace HashTables
     }
 
 
+    public string RepeatedWord(string s)
+    {
+      if (string.IsNullOrEmpty(s))
+      {
+        return null;
+      }
 
+      // Split the input into words 
+      string[] words = Regex.Split(s, @"\W+");
+
+      HashSet<string> hs = new HashSet<string>();
+
+      foreach (string word in words)
+      {
+        string lowerCaseWord = word.ToLower();
+
+        if (hs.Contains(lowerCaseWord))
+        {
+          return lowerCaseWord;
+        }
+
+        hs.Add(lowerCaseWord);
+      }
+
+      return null;
+    }
 
 
 
