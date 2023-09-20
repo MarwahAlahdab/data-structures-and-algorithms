@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Trees\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Trees\" />
+  </ItemGroup>
 </Project>
