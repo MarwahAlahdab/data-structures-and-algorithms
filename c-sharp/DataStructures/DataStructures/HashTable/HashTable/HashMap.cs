@@ -200,6 +200,34 @@ namespace HashTables
 
 
 
+
+
+    public static List<List<string>> LeftJoin(Dictionary<string, string> synonyms, Dictionary<string, string> antonyms)
+    {
+      List<List<string>> result = new List<List<string>>();
+
+      foreach (KeyValuePair<string, string> kvp in synonyms)
+      {
+        string word = kvp.Key;
+        string synonym = kvp.Value;
+
+        if (antonyms.ContainsKey(word))
+        {
+          string antonym = antonyms[word];
+          result.Add(new List<string> { word, synonym, antonym });
+        }
+        else
+        {
+          // If no values exist in the right hashmap, then some flavor of NULL
+          result.Add(new List<string> { word, synonym, null });
+        }
+      }
+
+      return result;
+    }
+
+
+
   }
 
     }
