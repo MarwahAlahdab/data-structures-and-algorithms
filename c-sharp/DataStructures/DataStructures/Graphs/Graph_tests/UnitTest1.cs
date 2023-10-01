@@ -91,6 +91,46 @@ public class UnitTest1
   }
 
 
+  //CC-36
+
+  [Fact]
+  public void BreadthFirst_ReturnCorrectBFT()
+  {
+
+
+    GraphWithNodes graph = new GraphWithNodes();
+    Node pandora = graph.AddNode("Pandora");
+    Node arendelle = graph.AddNode("Arendelle");
+    Node metroville = graph.AddNode("Metroville");
+    Node monstropolis = graph.AddNode("Monstropolis");
+    Node narnia = graph.AddNode("Narnia");
+    Node naboo = graph.AddNode("Naboo");
+
+    graph.AddEdge(pandora, arendelle);
+    graph.AddEdge(arendelle, metroville);
+    graph.AddEdge(arendelle, monstropolis);
+    graph.AddEdge(metroville, monstropolis);
+    graph.AddEdge(metroville, narnia);
+    graph.AddEdge(metroville, naboo);
+    graph.AddEdge(monstropolis, naboo);
+    graph.AddEdge(narnia, naboo);
+
+    IEnumerable<Node> traversal = graph.BreadthFirst(pandora);
+
+    
+    List<string> result = new List<string>();
+
+    foreach (Node node in traversal)
+    {
+      result.Add(node.Value);
+    }
+
+    string expected = "Pandora Arendelle Metroville Monstropolis Narnia Naboo";
+    string actual = string.Join(" ", result);
+    Assert.Equal(expected, actual);
+  }
+
+
 
 }
 
