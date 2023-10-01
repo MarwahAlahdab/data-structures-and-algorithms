@@ -112,5 +112,45 @@ public class UnitTest1
 
 
 
+  ///CC-33
+  ///
+
+
+  [Fact]
+  public void LeftJoin_Should_Return_Correct_Result()
+  {
+    Dictionary<string, string> synonyms = new Dictionary<string, string>
+        {
+            { "diligent", "employed" },
+            { "fond", "enamored" },
+            { "guide", "usher" },
+            { "outfit", "garb" },
+            { "wrath", "anger" }
+        };
+
+    Dictionary<string, string> antonyms = new Dictionary<string, string>
+        {
+            { "diligent", "idle" },
+            { "fond", "averse" },
+            { "guide", "follow" },
+            { "flow", "jam" },
+            { "wrath", "delight" }
+        };
+
+    List<List<string>> expected = new List<List<string>>
+        {
+            new List<string> { "diligent", "employed", "idle" },
+            new List<string> { "fond", "enamored", "averse" },
+            new List<string> { "guide", "usher", "follow" },
+            new List<string> { "outfit", "garb", null },
+            new List<string> { "wrath", "anger", "delight" }
+        };
+
+
+    List<List<string>> result = HashMap.LeftJoin(synonyms, antonyms);
+
+    Assert.Equal(expected, result);
+  }
+
 
 }
