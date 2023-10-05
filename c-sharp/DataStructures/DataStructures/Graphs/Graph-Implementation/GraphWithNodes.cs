@@ -80,6 +80,45 @@ namespace Graph_Implementation
 
 
 
+    public List<Node> DepthFirst(Node startNode)
+    {
+      List<Node> result = new List<Node>();
+      HashSet<Node> visited = new HashSet<Node>();
+
+      DepthFirstRecursive(startNode, visited, result);
+
+      return result;
+
+    }
+
+
+
+
+
+    private void DepthFirstRecursive(Node currentNode, HashSet<Node> visited, List<Node> result)
+    {
+      if (currentNode == null || visited.Contains(currentNode))
+      {
+        return;
+      }
+
+      // Visit the current node
+      visited.Add(currentNode);
+      result.Add(currentNode);
+
+      // Recursively visit neighbors
+      foreach (var neighbor in currentNode.Neighbors)
+      {
+        DepthFirstRecursive(neighbor, visited, result);
+      }
+    }
+
+
+
+
+
+
+
 
 
 
@@ -91,7 +130,7 @@ namespace Graph_Implementation
   {
     public string Value { get; set; }
 
-    // public List<Node> Neighbors { get; set; }
+    public List<Node> Neighbors  = new List<Node>();
 
 
     public Node(string value)
@@ -100,7 +139,10 @@ namespace Graph_Implementation
     }
 
 
-
+    public void AddNeighbor(Node neighbor)
+    {
+      Neighbors.Add(neighbor);
+    }
 
 
   }

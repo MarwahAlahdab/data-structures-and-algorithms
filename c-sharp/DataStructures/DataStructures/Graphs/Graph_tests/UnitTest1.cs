@@ -1,3 +1,4 @@
+using System.Xml.Linq;
 using Graph_Implementation;
 
 namespace Graph_tests;
@@ -14,19 +15,19 @@ public class UnitTest1
 
     graph.AddVertex("A");
 
-    
+
     Assert.Contains("A", graph.GetVertices());
   }
 
   [Fact]
   public void AddEdge_ShouldAddEdgeBetweenVertices()
   {
-   
+
     var graph = new Graph();
     graph.AddVertex("A");
     graph.AddVertex("B");
 
-  
+
     graph.AddEdge("A", "B", 5);
 
     var neighbors = graph.GetNeighbors("A");
@@ -117,7 +118,7 @@ public class UnitTest1
 
     IEnumerable<Node> traversal = graph.BreadthFirst(pandora);
 
-    
+
     List<string> result = new List<string>();
 
     foreach (Node node in traversal)
@@ -132,5 +133,60 @@ public class UnitTest1
 
 
 
-}
+  //CC-37
+
+
+
+
+  //CC-38
+
+ 
+    [Fact]
+    public void TestDepthFirstTraversal()
+    {
+
+    GraphWithNodes graph = new GraphWithNodes();
+
+    Node nodeA = graph.AddNode("A");
+    Node nodeB = graph.AddNode("B");
+    Node nodeC = graph.AddNode("C");
+    Node nodeD = graph.AddNode("D");
+    Node nodeE = graph.AddNode("E");
+    Node nodeF = graph.AddNode("F");
+    Node nodeG = graph.AddNode("G");
+    Node nodeH = graph.AddNode("H");
+
+    nodeA.AddNeighbor(nodeB);
+    nodeB.AddNeighbor(nodeC);
+    nodeC.AddNeighbor(nodeG);
+
+    nodeA.AddNeighbor(nodeD);
+    nodeB.AddNeighbor(nodeD);
+    nodeD.AddNeighbor(nodeE);
+    nodeD.AddNeighbor(nodeH);
+
+    nodeD.AddNeighbor(nodeF);
+    nodeF.AddNeighbor(nodeH);
+
+
+    List<Node> traversalResult = graph.DepthFirst(nodeA);
+
+    List<string> nodeValues = new List<string>();
+    foreach (var node in traversalResult)
+    {
+      nodeValues.Add(node.Value);
+    }
+
+    List<string> expectedValues = new List<string> { "A", "B", "C", "G", "D", "E", "H", "F" };
+
+    Assert.Equal(expectedValues, nodeValues);
+  }
+
+
+
+
+
+  }
+
+
 
