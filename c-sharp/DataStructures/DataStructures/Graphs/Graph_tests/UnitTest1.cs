@@ -135,13 +135,52 @@ public class UnitTest1
 
   //CC-37
 
+  [Fact]
+  public void TestBusinessTrip()
+  {
+    // Arrange
+    var cityMap = new CityMap();
+    cityMap.AddRoute("Metroville", "Pandora", 82);
+    cityMap.AddRoute("Arendelle", "Pandora", 150);
+
+    cityMap.AddRoute("Arendelle", "Metroville", 99);
+
+
+    cityMap.AddRoute("Metroville", "Monstropolis", 105);
+    cityMap.AddRoute("Naboo", "Metroville", 26);
+    cityMap.AddRoute("Metroville", "Narnia", 37);
+    cityMap.AddRoute( "Narnia", "Naboo", 250);
+    cityMap.AddRoute("Arendelle", "Monstropolis", 42);
+
+    cityMap.AddRoute("Monstropolis","Naboo", 73);
+
+
+
+    // Act
+    string[] trip1 = { "Metroville", "Pandora" };
+    string[] trip2 = { "Arendelle", "Monstropolis", "Naboo" };
+    string[] trip3 = { "Naboo", "Pandora" };
+    string[] trip4 = { "Narnia", "Arendelle", "Naboo" };
+
+    int? tripCost1 = CityMap.BusinessTrip(cityMap, trip1);
+    int? tripCost2 = CityMap.BusinessTrip(cityMap, trip2);
+    int? tripCost3 = CityMap.BusinessTrip(cityMap, trip3);
+    int? tripCost4 = CityMap.BusinessTrip(cityMap, trip4);
+
+    // Assert
+    Assert.Equal(82, tripCost1);
+    Assert.Equal(115, tripCost2);
+    Assert.Null(tripCost3); // Should return null for non-existent route
+    Assert.Null(tripCost4); 
+  }
+
 
 
 
   //CC-38
 
- 
-    [Fact]
+
+  [Fact]
     public void TestDepthFirstTraversal()
     {
 
